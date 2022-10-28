@@ -335,6 +335,13 @@
   font-size: smaller;
 }
 
+.header__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+}
+
 @media (max-width: 400px) {
   .header__wrapper {
     display: flex;
