@@ -20,7 +20,7 @@ const Layout = () => {
             <PreliminaryOffer/>
             <NextUp/>
             <Impact/>
-            <BuyAndClose/>
+            {/* <BuyAndClose/> */}
           </div>
         </div>
       </div>

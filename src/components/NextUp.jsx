@@ -7,7 +7,7 @@ const NextUp = () => {
       <div className='body__nextup__head'>
         <h3>Next Up</h3>
         <p>Show us your home</p>
-        </div>
+      </div>
       <img src={progressBar} alt="progressBar" className='body__nextup__progressbar' />
       <div className='body__nextup__footer'>
         
