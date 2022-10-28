@@ -18,9 +18,11 @@ const Layout = () => {
           <div className='body'>
             <Notification />
             <PreliminaryOffer/>
+            <div className='wrapper'>
             <NextUp/>
             <Impact/>
-            {/* <BuyAndClose/> */}
+            </div>
+            <BuyAndClose/>
           </div>
         </div>
       </div>

@@ -5,10 +5,12 @@ import messageIcon from '../icons/messageIcon.svg'
 const Header = () => {
   return (
     <div className='header'>
-      <h2 className='header__title'>Selling</h2>
-      <div className='header__center'>
-        <p>Offer</p>
-        <p>History</p>
+      <div className='header__wrapper'>
+        <h2 className='header__title'>Selling</h2>
+        <div className='header__center'>
+          <p>Offer</p>
+          <p>History</p>
+        </div>
       </div>
       <div className='header__contact'>
         <img src={addContact} alt="addContact" />
